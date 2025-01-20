@@ -55,5 +55,6 @@ Python, FastAPI, Pydantic, SQLAlchemy, Alembic, PostgreSQL, Kafka, Docker
 
 ## Запуск проекта
 - Склонируйте репозиторий
+- создайте .env файл и заполните по образцу .env.example
 - Выполните команду: docker-compose up --build
 - После запуска контейнеров, документация будет доступна по ссылке: http://localhost:8000/docs
