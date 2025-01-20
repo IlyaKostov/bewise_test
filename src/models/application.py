@@ -4,7 +4,7 @@ from sqlalchemy import func
 from sqlalchemy.orm import Mapped, mapped_column
 
 from src.models import BaseModel
-from src.schemas.application import ApplicationSchemaDB, ApplicationResponse
+from src.schemas.application import ApplicationResponse
 
 
 class ApplicationModel(BaseModel):
